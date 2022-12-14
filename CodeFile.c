@@ -1,4 +1,4 @@
-//Musa Meriç
+//Musa MeriÃ§
 
 #include <time.h>
 #include <math.h>
@@ -244,9 +244,9 @@ int partitionQ(int array[], int l, int r, int index)
     return index;
 }
  
-// Returns the k'th smallest element in the list within `left…right`
+// Returns the k'th smallest element in the list within `leftâ€¦right`
 // (i.e., left <= k <= right). The search space within the array is
-// changing for each round – but the list is still the same size.
+// changing for each round â€“ but the list is still the same size.
 // Thus, `k` does not need to be updated with each round.
 int quickselect(int array[], int l, int r, int k)
 {
